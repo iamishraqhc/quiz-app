@@ -1,2 +1,2 @@
 API used: Open Trivia Database
-Live site: To be updated
+Live site: https://trivia-app-by-ishraq.netlify.app/

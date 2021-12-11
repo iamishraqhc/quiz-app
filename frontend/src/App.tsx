@@ -1,16 +1,8 @@
 import React, { useState } from 'react'
 import { QuestionState, Difficulty, fetchQuizQuestions } from './API'
 
-import QuestionCard  from './components/QuestionCard'
-
+import QuestionCard, { AnswerObject }  from './components/QuestionCard'
 import { GlobalStyle, Wrapper } from './App.styles'
-
-export type AnswerObject = {
-  question: string
-  answer: string
-  correct: boolean
-  correctAnswer: string
-}
 
 const TOTAL_QUESTIONS = 10
 
@@ -61,8 +53,7 @@ const App = () => {
 
     if (nextQuestion === TOTAL_QUESTIONS) {
       setGameOver(true)
-    }
-    else {
+    } else {
       setNumber(nextQuestion)
     }
   }

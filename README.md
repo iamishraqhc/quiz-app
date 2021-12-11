@@ -22,4 +22,4 @@ https://opentdb.com/api_config.php
 https://trivia-app-by-ishraq.netlify.app/
 
 ### YouTube video tutorial: 
-Will be updated soon
+https://youtu.be/Y0GxesRKzXE
